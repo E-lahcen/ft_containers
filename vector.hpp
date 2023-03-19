@@ -6,7 +6,7 @@
 /*   By: lelhlami <lelhlami@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/16 15:27:15 by lelhlami          #+#    #+#             */
-/*   Updated: 2023/02/19 22:34:11 by lelhlami         ###   ########.fr       */
+/*   Updated: 2023/02/21 09:56:33 by lelhlami         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ namespace ft
         //Membres functions
             explicit vector (const Allocator& alloc = Allocator());
             explicit vector (size_type n, const value_type& val = value_type(), const allocator_type& alloc = allocator_type());
-            template <class InputIterator>         vector (InputIterator first, InputIterator last,                 const allocator_type& alloc = allocator_type());
+            template <class InputIterator> vector (InputIterator first, InputIterator last, const allocator_type& alloc = allocator_type());
             vector (const vector& x);
             ~vector();
             vector& operator= (const vector& x);
